@@ -69,7 +69,7 @@
 				<div id="intro">
 					<h1>Hi, I'm Rachel.</h1>
 
-					<p>I love <strong>WordPress</strong>, which means <strong>PHP</strong> is my friend.  <strong>HTML5</strong>, <strong>CSS3</strong>, and <strong>Javascript</strong> are some of my other buds.  I'm a firm believer in the importance of <strong>mobile-first</strong> and <strong>responsive web design</strong>.  I like running, blogging, crochet, puzzles, and video games, but I probably haven't seen the movie you're talking about!</p>
+					<p>I love <strong>WordPress</strong>, which means <strong>PHP</strong> is my friend.  <strong>HTML5</strong>, <strong>CSS3</strong>, and <strong>Javascript</strong> are some of my other buds.  I'm a firm believer in the importance of <strong>mobile-first</strong> and <strong>responsive web design</strong>.  I like running, knitting, blogging, and video games, but I probably haven't seen the movie you're talking about!</p>
 					<hr />
 				</div>
 
