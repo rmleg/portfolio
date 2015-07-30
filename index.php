@@ -103,11 +103,11 @@
 					  <p>&nbsp;</p></li>
 					  <li><img src="images/screenshots/burst-responsive-right.png" />
 					  	<p>&nbsp;</p>
-					  	<p>I built this fully-responsive blog theme from scratch.  It is a bare-bones WordPress theme and was my first responsive design.  <a href="http://rachel.nu" target="_blank">View a Live Demo</a></p>
+					  	<p>I built this fully-responsive blog theme from scratch.  It is a bare-bones WordPress theme and was my first responsive design.<!--  <a href="http://rachel.nu" target="_blank">View a Live Demo</a>--></p>
 					  	<p>&nbsp;</p></li>
 					  <li><img src="images/screenshots/sophistique.png" />
 					  	<p>&nbsp;</p>
-					  	<p>This non-responsive theme is highly stylized for a personal blog with focus on content and interesting flourishes.  This is not something I would release today, but I like to showcase it for the artistic design elements.  <a href="http://rachelleggett.com/sophistique.htm" target="_blank">View a Live Demo</a></p>
+					  	<p>This non-responsive theme is highly stylized for a personal blog with focus on content and interesting flourishes.  This is not something I would release today, but I like to showcase it for the artistic design elements.  <a href="sophistique.htm" target="_blank">View a Live Demo</a></p>
 					  	<p>&nbsp;</p></li>
 					  <li><img src="images/screenshots/mrun.png" />
 					  	<p>&nbsp;</p>
