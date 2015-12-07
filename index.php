@@ -174,8 +174,8 @@
 						<p id="social-icons">
 							<a href="mailto:rleggett@umich.edu" class="symbol" title="circleemail"></a>
 							<a href="https://www.linkedin.com/pub/rachel-leggett/a2/a25/57a" class="symbol" title="circlelinkedin"></a>
-							<a href="http://twitter.com/rachmleg" target="_blank" class="symbol" title="twitterbird"></a>
-							<a href="http://rachel.nu" class="symbol" title="wordpress"></a>
+							<a href="http://twitter.com/rachmleg" target="_blank" class="symbol" title="circletwitterbird"></a>
+							<a href="http://rachrunshermouth.wordpress.com" class="symbol" title="circlewordpress"></a>
 						</p>
 						<p>Feel free to email me at <a href="mailto:rleggett@umich.edu">rleggett@umich.edu</a>, or find me at one of the links above!</p>
 				</div>
