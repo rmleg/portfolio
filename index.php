@@ -47,6 +47,13 @@
 		<meta property="og:image" content="http://rachelleggett.com/images/screenshots/newtheme-responsive-right.png" />
 		<meta property="og:description" content="Rachel is passionate about the web and creating usable designs from a responsive, mobile-first standpoint.  She thinks WordPress is really great and enjoys programming in several languages, especially PHP." />
 
+				<script>
+					$(document).ready(function(){
+					  $('.bxslider').bxSlider({
+					  	//captions: true
+					  });
+					});
+				</script>
 	</head>
 
 	<body>
@@ -71,102 +78,16 @@
 
 					<p>I love <strong>WordPress</strong>, which means <strong>PHP</strong> is my friend.  <strong>HTML5</strong>, <strong>CSS3</strong>, and <strong>Javascript</strong> are some of my other buds.  I'm a firm believer in the importance of <strong>mobile-first</strong> and <strong>responsive web design</strong>.  I like running, knitting, blogging, and video games, but I probably haven't seen the movie you're talking about!</p>
 					<hr />
-				</div>
+				</div><!---#intro-->
 
-				<script>
-					$(document).ready(function(){
-					  $('.bxslider').bxSlider({
-					  	//captions: true
-					  });
-					});
-				</script>
-
-				<!-- <ul class="bxslider smaller">
-				  <li><img src="images/screenshots/newtheme-responsive-right-small.png" /></li>
-				  <li><img src="images/screenshots/burst-responsive-right-small.png" /></li>
-				  <li><img src="images/screenshots/sophistique-small.png" /></li>
-				  <li><img src="images/screenshots/mrun-small.png" /></li>
-				</ul> -->
 
 				<div id="examples">
 
-					<a name="themes"></a>
+				<?php include('themes.php');?>
+				<?php include('plugins.php');?>
+				<?php include('logos.php');?>
 
-					<h2>Some of My Work</h2>
-
-					<h3>WordPress Themes</h3>
-
-					<ul class="bxslider">
-					  <li><img src="images/screenshots/newtheme-responsive-right.png" />
-					  	<p>&nbsp;</p>
-					  	<p>I built this fully-responsive blog theme using starter theme <a href="http://underscores.me" target="_blank">Underscores</a> as a base.  Underscores gave me the functions to make my blog work great, and I gave it the style to make my blog look great.  This theme has several different color options and other customizations available in the Theme Customizer.  <a href="http://blog.rachelleggett.com" target="_blank">View a Live Demo</a></p>
-					  <p>&nbsp;</p></li>
-					  <li><img src="images/screenshots/burst-responsive-right.png" />
-					  	<p>&nbsp;</p>
-					  	<p>I built this fully-responsive blog theme from scratch.  It is a bare-bones WordPress theme and was my first responsive design.<!--  <a href="http://rachel.nu" target="_blank">View a Live Demo</a>--></p>
-					  	<p>&nbsp;</p></li>
-					  <li><img src="images/screenshots/sophistique.png" />
-					  	<p>&nbsp;</p>
-					  	<p>This non-responsive theme is highly stylized for a personal blog with focus on content and interesting flourishes.  This is not something I would release today, but I like to showcase it for the artistic design elements.  <a href="sophistique.htm" target="_blank">View a Live Demo</a></p>
-					  	<p>&nbsp;</p></li>
-					  <li><img src="images/screenshots/mrun.png" />
-					  	<p>&nbsp;</p>
-					  	<p>I designed this website for the Michigan Running Club during my time as their webmaster.  They needed a simple website that would offer plenty of information for perspective runners as well as for current club runners and their families.</p>
-					  	<p>&nbsp;</p></li>
-					</ul>
-
-					<a name="plugins"></a>
-
-					<hr />
-
-					<h3>Customized WordPress Plugins</h3>
-
-					<div class="two-col">
-						<div class="left">
-							<h4>Usage Reports</h4>
-							<p>Usage Reports is a plugin written for CAEN's WordPress Publishing Service, displaying information about their multisite usage on the network admin dashboard.  It displays:</p>
-								<uL>
-									<li>Active plugins per site.</li>
-									<li>Contact info (from the custom field) for each site.</li>
-									<li>Whether each site is discouraging indexing</li>
-									<li>Whether each site is using a Homepage Link feature.</li>
-									<li>Number of media attachments and space used for each site.</li>
-									<li>A breakdown of the page templates used on each site.</li>
-									<li>The number and status of posts on each site</li>
-									<li>The currently active theme of each site.</li>
-									<li>A list of users for each site with each admin user starred and admin email listed.</li>
-									<li>Active widgets per site.</li>
-								</ul>
-
-						</div>
-						<div class="right">
-							<h4>Hide Custom Fields</h4>
-							<p>Hide Custom Fields is a plugin that uses Javascript with JQuery to hide unused custom fields on the "edit page" screen in the dashboard, based on the currently-selected page template.</p>
-						</div>
-					</div>
-
-					<a name="logos"></a>
-
-					<hr />
-
-					<h3>Logo Designs</h3>
-
-					<div class="three-col logos">
-						<div class="left">
-							<img src="images/logos/grahamremodellogo_bw.png" alt="Graham Remodel Logo" />
-							<p>This logo was requested by Graham Modernization and Construction, LLC for use as a letterhead and on the company website that I was also designing and building at the time.</p>
-						</div>
-						<div class="left middle">
-							<img src="images/logos/parameter17.png" alt="Parameter 17 Logo" />
-							<p>This logo was part of a design challenge I completed.  I used a random phrase generator to generate fictitious company names, for which I then designed branding.  Parameter 17 is an independent production studio.</p>
-						</div>
-						<div class="left">
-							<img src="images/logos/textualtime.png" alt="Textual Time" />
-							<p>This logo was part of a design challenge I completed.  I used a random phrase generator to generate fictitious company names, for which I then designed branding.  For Textual Time, the private tutoring service, "any time is learning time."</p>
-						</div>
-					</div>
-
-				</div>
+				</div><!---#examples-->
 				<a name="contact"></a>
 				<hr />
 				<div id="contact">
@@ -178,11 +99,11 @@
 							<a href="http://rachel.nu" class="symbol" title="circlewordpress"></a>
 						</p>
 						<p>Feel free to email me at <a href="mailto:rleggett@umich.edu">rleggett@umich.edu</a>, or find me at one of the links above!</p>
-				</div>
+				</div><!---#contact-->
 
-			</div>
+			</div><!---#content-->
 
-		</div>
+		</div><!---#main-->
 
 	</body>
 
