@@ -70,6 +70,7 @@ a.symbol:before {
 
 #main_navigation ul li a:hover {
 	color: #000;
+    transition: all 0.5s ease;
 }
 
 /*** Layout Positioning ***/
