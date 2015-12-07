@@ -4,7 +4,7 @@
 <hr />
 					<h3>WordPress Themes</h3>
 
-<p>I love to take mocked up designs and turn them into fully-featured, responsive WordPress themes.  However, what follow are themes I have designed and built myself.</p>
+<p>I love to take mocked up designs and turn them into fully-featured, responsive WordPress themes (<a href="#contact">ask me about my experience doing this professionally</a>).  However, what follow are themes I have designed and built myself.</p>
 
 
 					<ul class="bxslider">
