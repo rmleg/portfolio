@@ -1,7 +1,5 @@
 <a name="plugins"></a>
 
-<hr />
-
 <h3>Customized WordPress Plugins</h3>
 
 <div class="two-col">

@@ -1,7 +1,7 @@
 
 					<a name="themes"></a>
 
-
+<hr />
 					<h3>WordPress Themes</h3>
 
 					<ul class="bxslider">
