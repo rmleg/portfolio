@@ -55,8 +55,8 @@
 			<nav id="main_navigation">
 				<ul>
 					<li id="top"><a href="#">&uarr;</a></li>
-					<li><a href="#themes">Themes</a></li>
 					<li><a href="#plugins">Plugins</a></li>
+					<li><a href="#themes">Themes</a></li>
 					<li><a href="#logos">Logos</a></li>
 					<li><a href="#contact">Contact</a></li>
 				</ul>
