@@ -1,7 +1,6 @@
 
 					<a name="themes"></a>
 
-					<h2>Some of My Work</h2>
 
 					<h3>WordPress Themes</h3>
 

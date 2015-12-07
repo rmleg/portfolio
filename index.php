@@ -76,8 +76,9 @@
 
 				<div id="examples">
 
-				<?php include('themes.php');?>
+                                <h2>Some of My Work</h2>
 				<?php include('plugins.php');?>
+				<?php include('themes.php');?>
 				<?php include('logos.php');?>
 
 				</div><!---#examples-->
