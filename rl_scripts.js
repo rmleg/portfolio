@@ -11,4 +11,7 @@ jQuery(document).ready(function($) {
 			//$('#wpadminbar').removeClass("sticky");
 		}
 	});
+        $('.bxslider').bxSlider({
+            //captions: true
+        });
 })

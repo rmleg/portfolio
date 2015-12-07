@@ -47,13 +47,6 @@
 		<meta property="og:image" content="http://rachelleggett.com/images/screenshots/newtheme-responsive-right.png" />
 		<meta property="og:description" content="Rachel is passionate about the web and creating usable designs from a responsive, mobile-first standpoint.  She thinks WordPress is really great and enjoys programming in several languages, especially PHP." />
 
-				<script>
-					$(document).ready(function(){
-					  $('.bxslider').bxSlider({
-					  	//captions: true
-					  });
-					});
-				</script>
 	</head>
 
 	<body>
