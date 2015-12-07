@@ -5,7 +5,7 @@
 <h3>Customized WordPress Plugins</h3>
 
 <div class="two-col">
-    <p><em>These plugins were written for <a href="http://caen.engin.umich.edu/web/publishing" target="_blank">CAEN's Web Publishing Service</a> and are not in the Wordpress.org plugin repository.i</em></p>
+    <p><em>These plugins were written for <a href="http://caen.engin.umich.edu/web/publishing" target="_blank">CAEN's Web Publishing Service</a> and are not in the Wordpress.org plugin repository.</em></p>
 	<div class="left">
 		<h4>Usage Reports</h4>
 		<p>Usage Reports is a plugin written for <a href="http://caen.engin.umich.edu/web/publishing" target="_blank">CAEN's Web Publishing Service</a> displaying information about their multisite usage on the network admin dashboard.  It displays:</p>
@@ -25,7 +25,7 @@
 	</div>
         <div class="right">
                 <h4>Profiles</h4>
-                <p>This plugin leverages Custom Post Types, the Shortcode API, and the <a href="https://github.com/WebDevStudios/cmb2" target="_blank">CMB2</a> library to create a Profile type, simplifying the addition of people to listings within the College of Engineering WordPress network.</p> 
+                <p>This plugin leverages Custom Post Types, the Shortcode API, and the <a href="https://github.com/WebDevStudios/cmb2" target="_blank">CMB2</a> library to create a Profile type, simplifying the addition of people to listings within the College of Engineering WordPress network.  It allows both a list and a grid view of groups of profiles, is filterable by type, tag, and ID, and is sortable by name.</p> 
 		<h4>Hide Custom Fields</h4>
 		<p>Hide Custom Fields is a plugin that uses Javascript with JQuery to hide unused custom fields on the "edit page" screen in the dashboard, based on the currently-selected page template.</p>
 	</div>
