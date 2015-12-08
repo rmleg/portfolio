@@ -70,7 +70,7 @@ a.symbol:before {
 
 #main_navigation ul li a:hover {
 	color: #000;
-    transition: all 0.5s ease;
+    /*transition: all 0.5s ease;*/
 }
 
 /*** Layout Positioning ***/
@@ -197,8 +197,12 @@ a:hover {
 
 #content a:hover {
     color: #666;
-    transition: all 0.5s ease;
+   /* transition: all 0.5s ease;*/
 }
+
+/*.bx-controls-direction a:hover {
+    transition-property: none;
+}*/
 
 .three-col {
 	text-align: center;
