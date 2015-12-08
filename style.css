@@ -106,6 +106,15 @@ header {
 	font-size: 1em;
 }
 
+#intro a {
+    color: #666 !important;
+}
+
+#intro a:hover {
+    color: #333 !important;
+    transition: color 0.5s ease;
+}
+
 /*** Content ***/
 
 #content h1, #content h2 {
@@ -177,6 +186,20 @@ h4 {
 	font-size: 3em;
 }
 
+#social-icons a.symbol {
+    font-weight: normal;
+    color: #666;
+}
+
+#social-icons a.symbol:hover {
+    text-decoration: none;
+    color: #333;
+}
+
+#social-icons a:hover {
+    transition: color 0.5s ease;
+}
+
 #contact {
 	text-align: center;
 }
@@ -188,6 +211,7 @@ a {
 
 a:hover {
 	color: #333;
+    text-decoration: underline;
 }
 
 #content a {
