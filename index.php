@@ -56,7 +56,8 @@
 				<ul>
 					<li id="top"><a href="#">&uarr;</a></li>
 					<li><a href="#plugins">Plugins</a></li>
-					<li><a href="#themes">Themes</a></li>
+                                        <li><a href="#themes">Themes</a></li>
+                                        <li><a href="#other">Other Projects</a></li>
 					<li><a href="#logos">Logos</a></li>
 					<li><a href="#contact">Contact</a></li>
 				</ul>
@@ -78,7 +79,8 @@
                                 <h2>Some of My Work</h2>
 				<?php include('plugins.php');?>
 				<?php include('themes.php');?>
-				<?php include('logos.php');?>
+                                <?php include('other-projects.php');?>
+                                <?php include('logos.php');?>
 
 				</div><!---#examples-->
 				<a name="contact"></a>

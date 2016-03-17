@@ -232,6 +232,10 @@ a:hover {
 	text-align: center;
 }
 
+img {
+    max-width: 100%;
+}
+
 .three-col img {
 	max-height: 116px;
 	max-width: 90%;
