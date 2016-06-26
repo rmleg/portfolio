@@ -6,18 +6,15 @@
     <p><em>These plugins were written for <a href="http://caen.engin.umich.edu/web/publishing" target="_blank">CAEN's Web Publishing Service</a> and are not in the Wordpress.org plugin repository.</em></p>
 	<div class="left">
 		<h4>Usage Reports</h4>
-		<p>This plugin combines WordPress functions and SQL to query the database behind CAEN's multisite network (over 150 sites) to display information about usage on the network admin dashboard.  It displays:</p>
+		<p>This plugin queries the database behind CAEN's multisite network (over 150 sites) to display information about usage on the network admin dashboard, including but not limited to:</p>
 			<uL>
 				<li>Active plugins per site.</li>
-				<li>Contact info (from the custom field) for each site.</li>
-				<li>Whether each site is discouraging indexing</li>
-				<li>Whether each site is using a Homepage Link feature.</li>
+				<li>Contact info (from a theme customization option) for each site.</li>
 				<li>Number of media attachments and space used for each site.</li>
 				<li>A breakdown of the page templates used on each site.</li>
-				<li>The number and status of posts on each site</li>
+				<li>The number and status of posts on each site.</li>
 				<li>The currently active theme of each site.</li>
 				<li>A list of users for each site with each admin user starred and admin email listed.</li>
-				<li>Active widgets per site.</li>
 			</ul>
 
 	</div>
