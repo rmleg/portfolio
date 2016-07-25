@@ -69,7 +69,7 @@
 			<div id="content">
 				<div id="intro">
 					<h1>Hi, I'm Rachel.</h1>
-                    <p>I am a <strong>WordPress developer</strong> with a passion for building a friendly, <strong>accessible</strong> web.  I'm a firm believer in the importance of <strong>mobile-first</strong> and <strong>responsive web design</strong>.  I love <a href="http://ravelry.com/people/arbortwist" target="_blank">knitting</a>, running, and <a href="http://rachel.nu" target="_blank">blogging</a>, but I probably haven't seen the movie you're talking about!</p>
+                    <p>I am a <strong>WordPress developer</strong> with a passion for building a friendly, <strong>accessible</strong> web.  I'm a firm believer in the importance of <strong>mobile-first</strong> and <strong>responsive web design</strong>.  I love <a href="http://ravelry.com/people/arbortwist" target="_blank">knitting</a>, running, and <a href="http://rachel.nu" target="_blank">blogging</a>, but I probably haven't seen the movie you're talking about!  I run a hand-dyed yarn business called <a href="http://arbortwist.com" target="_blank">Arbor Twist</a> in my free time.</p>
 					<hr />
 				</div><!---#intro-->
 
