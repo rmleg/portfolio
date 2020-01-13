@@ -1,0 +1,124 @@
+/* color scheme */
+
+$prune:         #6E0D25;
+$pale-yellow:   #FFFFB3;
+$fawn:          #DCAB6B;
+$ruby:          #AA4465;
+$wine:          #632B30;
+
+/* Fonts */
+$serif:         "PT Serif", Georgia, serif;
+$sans-serif:    "Nunito", Arial, sans-serif;
+
+body {
+    font-family: $sans-serif;
+    color: #333;
+    margin: 0;
+    background-color: #fefefe;
+}
+
+input {
+    font-family: "Nunito", Arial, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+        "header header header"
+        ". main ."
+        "footer footer footer";
+    /* grid: 
+        [head-start] "head" auto [head-end]
+        [content-start] "content" auto [content-end]
+        [footer-start] "footer" auto [footer-end]
+        / 100%; */
+    justify-content: center;
+    justify-items: stretch;
+}
+
+header {
+    grid-area: header;
+    align-self: center;
+    text-align: center;
+    color: $wine;
+
+    h1 {
+        margin-bottom: 0;
+    }
+}
+
+h1 {
+    font-family: $serif;
+    font-size: 4.5rem;
+    letter-spacing: 1px;
+}
+
+em {
+    font-family: $serif;
+    font-style: normal;
+    color: $wine;
+}
+
+main {
+    grid-area: main;
+    justify-self: center;
+
+    #about-me {
+        border-left: 3px solid $fawn;
+        font-size: 1.5rem;
+        padding-left: 1rem;
+        line-height: 1.5;
+    }
+}
+
+footer {
+    grid-area: footer;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3rem;
+}
+
+.grow { 
+    transition: all .2s ease-in-out; 
+}
+
+.grow:hover { 
+    transform: scale(1.1); 
+}
+
+a {
+    color: $wine;
+    font-weight: bold;
+
+    &:hover {
+        text-decoration: none;
+    }
+
+}
+
+span.social {
+    display: block;
+    margin: 1.5rem 0;
+    font-size: 2rem;
+    letter-spacing: 10px;
+
+    a {
+        text-decoration: none;
+        font-weight: normal;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: $prune;
+    }
+}
+
+.hide {
+    display: none;
+}
+
+.center {
+    text-align: center;
+}
