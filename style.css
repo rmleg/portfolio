@@ -4,6 +4,7 @@ body {
   font-family: "Nunito", Arial, sans-serif;
   color: #333;
   margin: 0;
+  padding: 0 1rem;
   background-color: #fefefe;
 }
 
@@ -85,13 +86,21 @@ main #about-me {
 
 .project {
   display: flex;
+  flex-flow: row wrap;
   justify-content: space-between;
   padding: 2rem 0;
+  align-items: center;
 }
-.project img {
-  max-width: 33%;
+.project .description {
+  flex-basis: 60%;
+}
+.project .screenshot {
+  flex-basis: 33%;
   border-top: 3px solid #DCAB6B;
   margin-left: 2rem;
+}
+.project .screenshot img {
+  max-width: 100%;
 }
 .project p {
   font-size: 1.1rem;
@@ -102,6 +111,19 @@ main #about-me {
   letter-spacing: 1px;
 }
 
+@media screen and (max-width: 950px) {
+  .project .description {
+    flex-basis: 45%;
+  }
+  .project .screenshot {
+    flex-basis: 50%;
+  }
+}
+@media screen and (max-width: 670px) {
+  .project .description, .project .screenshot {
+    flex-basis: 100%;
+  }
+}
 footer {
   grid-area: footer;
   display: flex;

@@ -14,6 +14,7 @@ body {
     font-family: $sans-serif;
     color: #333;
     margin: 0;
+    padding: 0 1rem;
     background-color: #fefefe;
 }
 
@@ -104,13 +105,24 @@ main {
 
 .project {
     display: flex;
+    flex-flow: row wrap;
     justify-content: space-between;
     padding: 2rem 0;
+    align-items: center;
 
-    img {
-        max-width: 33%;
+    .description {
+        flex-basis: 60%;
+    }
+
+    .screenshot {
+        flex-basis: 33%;
         border-top: 3px solid $fawn;
         margin-left: 2rem;
+
+        img {
+            max-width: 100%;
+        }
+
     }
 
     p {
@@ -123,6 +135,25 @@ main {
         letter-spacing: 1px;
     }
 
+}
+
+@media screen and (max-width: 950px) {
+    .project {
+        .description {
+            flex-basis: 45%;
+        }
+        .screenshot {
+            flex-basis: 50%;
+        }
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .project {
+        .description, .screenshot {
+            flex-basis: 100%;
+        }
+    }
 }
 
 footer {
