@@ -153,6 +153,9 @@ main {
         .description, .screenshot {
             flex-basis: 100%;
         }
+        .screenshot {
+            margin-left: 0;
+        }
     }
 }
 

@@ -123,6 +123,9 @@ main #about-me {
   .project .description, .project .screenshot {
     flex-basis: 100%;
   }
+  .project .screenshot {
+    margin-left: 0;
+  }
 }
 footer {
   grid-area: footer;
