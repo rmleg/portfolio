@@ -44,7 +44,7 @@ export default () => (
       </p>
       <h2>Challenge</h2>
       <p>
-        The Student Computing Environment (SCE) Team is tasked with developing
+        The Student Computing Environment (SCE) team is tasked with developing
         and deploying a world class computing environment for Michigan
         Engineering students. For years, the team has completed this incredibly
         involved annual process through a tangled network of spreadsheets,
@@ -75,7 +75,7 @@ export default () => (
         <li>External database architects</li>
       </ul>
       <p>
-        The business analysts worked with the SCE Team to develop a process map,
+        The business analysts worked with the SCE team to develop a process map,
         which took several months. Once the process map was complete, I was
         brought onto the team to participate in database design and to begin to
         build the application.
