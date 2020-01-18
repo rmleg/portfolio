@@ -1,0 +1,243 @@
+/* color scheme */
+
+$prune: #6e0d25;
+$pale-yellow: #ffffb3;
+$fawn: #dcab6b;
+$ruby: #aa4465;
+$wine: #632b30;
+
+/* Fonts */
+$serif: "PT Serif", Georgia, serif;
+$sans-serif: "Nunito", Arial, sans-serif;
+
+body {
+  font-family: $sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0 1rem;
+  background-color: #fefefe;
+}
+
+input {
+  font-family: "Nunito", Arial, sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr minmax(min-content, 1200px) 1fr;
+  grid-template-rows: auto auto auto;
+  grid-template-areas:
+    "header header header"
+    ". main ."
+    "footer footer footer";
+  /* grid: 
+        [head-start] "head" auto [head-end]
+        [content-start] "content" auto [content-end]
+        [footer-start] "footer" auto [footer-end]
+        / 100%; */
+  justify-content: center;
+  justify-items: stretch;
+}
+
+header {
+  grid-area: header;
+  align-self: center;
+  text-align: center;
+  color: $wine;
+
+  h1 {
+    margin-bottom: 0;
+  }
+}
+
+h1,
+h2,
+h3 {
+  font-family: $serif;
+}
+
+h1 {
+  font-size: 4.5rem;
+  letter-spacing: 1px;
+}
+
+.casestudy {
+  main {
+    max-width: 800px;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    color: $wine;
+  }
+}
+
+.case-study-intro {
+  width: 100%;
+
+  p {
+    font-size: 1.5rem;
+    padding: 2.5rem;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 2rem;
+  margin-right: 2rem;
+}
+
+h2,
+h3 {
+  letter-spacing: 0.5px;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+}
+
+em {
+  font-family: $serif;
+  font-style: normal;
+  color: $wine;
+}
+
+main {
+  grid-area: main;
+  justify-self: center;
+
+  #about-me {
+    border-left: 3px solid $fawn;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    line-height: 1.5;
+  }
+}
+
+#projects {
+  padding-top: 2rem;
+
+  h3 {
+    margin-bottom: 0;
+  }
+
+  h2 {
+    span {
+      font-size: 1rem;
+    }
+  }
+}
+
+.project {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 2rem 0;
+  align-items: center;
+
+  .description {
+    flex-basis: 60%;
+  }
+
+  .screenshot {
+    flex-basis: 33%;
+    border-top: 3px solid $fawn;
+    margin-left: 2rem;
+
+    img {
+      max-width: 100%;
+    }
+  }
+
+  p {
+    font-size: 1.1rem;
+  }
+
+  p.project-tags {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .project {
+    .description {
+      flex-basis: 45%;
+    }
+    .screenshot {
+      flex-basis: 50%;
+    }
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .project {
+    .description,
+    .screenshot {
+      flex-basis: 100%;
+    }
+    .screenshot {
+      margin-left: 0;
+    }
+  }
+}
+
+footer {
+  grid-area: footer;
+  display: flex;
+  justify-content: space-around;
+  padding: 3rem 0;
+}
+
+.grow {
+  transition: all 0.2s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.1);
+}
+
+a {
+  color: $wine;
+  font-weight: bold;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+span.social {
+  display: block;
+  margin: 1.5rem 0;
+  font-size: 2rem;
+  letter-spacing: 10px;
+
+  a {
+    text-decoration: none;
+    font-weight: normal;
+    text-decoration: none;
+    padding: 0 1rem;
+  }
+
+  a:hover {
+    color: $prune;
+  }
+}
+
+.hide {
+  display: none;
+}
+
+.center {
+  text-align: center;
+}
