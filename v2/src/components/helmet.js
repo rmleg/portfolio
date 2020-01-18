@@ -1,9 +1,9 @@
 import React from "react"
 import { Helmet } from "react-helmet"
-import { appleTouchIcon } from "../../public/apple-touch-icon.png"
-import { favicon16x16 } from "../../public/favicon-16x16.png"
-import { favicon32x32 } from "../../public/favicon-32x32.png"
-/* import { manifest } from "../../public/site.webmanifest" */
+import { appleTouchIcon } from "../images/apple-touch-icon.png"
+import { favicon16x16 } from "../images/favicon-16x16.png"
+import { favicon32x32 } from "../images/favicon-32x32.png"
+/* import { manifest } from "../images/site.webmanifest" */
 
 function MyHelmet() {
   return (

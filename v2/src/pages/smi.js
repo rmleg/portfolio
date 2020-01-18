@@ -1,6 +1,5 @@
 import React from "react"
 import Layout from "../components/casestudylayout"
-import { Link } from "gatsby"
 import smiimg from "../images/smihomepage.png"
 import Nav from "../components/nav"
 
