@@ -59,7 +59,9 @@ export default () => (
         <div id="projects">
           <h2>Selected Projects</h2>
           <Project
-            title='<a href="https://knittingrecipes.com">Knitting Recipes</a>'
+            title="Knitting Recipes"
+            url="https://knittingrecipes.com"
+            link="false"
             tags="React | Sass | Bootstrap | Netlify | Personal Project"
             description='This <em>React</em> application allows knitters to generate hat
                   and sock knitting patterns based on their own custom measurements
@@ -72,6 +74,8 @@ export default () => (
 
           <Project
             title="Software Management Interface"
+            url="smi"
+            link="true"
             tags="Python | Flask | MySQL | JavaScript | University of Michigan"
             description="This <em>Flask</em> application provides an interface to
                   facilitate the U-M College of Engineering Student Computing Team's

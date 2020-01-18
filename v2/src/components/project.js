@@ -1,14 +1,34 @@
 import React from "react"
+import { Link } from "gatsby"
 
-export default props => (
-  <div className="project">
-    <div className="description">
-      <h3 dangerouslySetInnerHTML={{ __html: props.title }} />
-      <p className="project-tags">{props.tags}</p>
-      <p dangerouslySetInnerHTML={{ __html: props.description }} />
+const Project = props => {
+  let title = <h3>{props.title}</h3>
+  if (props.link === "true") {
+    title = (
+      <h3>
+        <Link to={props.url}>{props.title}</Link>
+      </h3>
+    )
+  } else if (props.link === "false" && props.url) {
+    title = (
+      <h3>
+        <a href={props.url}>{props.title}</a>
+      </h3>
+    )
+  }
+
+  return (
+    <div className="project">
+      <div className="description">
+        {title}
+        <p className="project-tags">{props.tags}</p>
+        <p dangerouslySetInnerHTML={{ __html: props.description }} />
+      </div>
+      <div className="screenshot">
+        <img src={props.img} alt={props.altText} />
+      </div>
     </div>
-    <div className="screenshot">
-      <img src={props.img} alt={props.altText} />
-    </div>
-  </div>
-)
+  )
+}
+
+export default Project

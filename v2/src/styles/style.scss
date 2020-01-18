@@ -72,6 +72,19 @@ h1 {
   }
 }
 
+.case-study-intro {
+  width: 100%;
+
+  p {
+    font-size: 1.5rem;
+    padding: 2.5rem;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
 nav {
   display: flex;
   justify-content: flex-end;
@@ -183,7 +196,7 @@ footer {
   grid-area: footer;
   display: flex;
   justify-content: space-around;
-  padding-top: 3rem;
+  padding: 3rem 0;
 }
 
 .grow {
