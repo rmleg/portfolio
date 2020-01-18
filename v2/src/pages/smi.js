@@ -2,13 +2,12 @@ import React from "react"
 import Layout from "../components/casestudylayout"
 import { Link } from "gatsby"
 import smiimg from "../images/smihomepage.png"
+import Nav from "../components/nav"
 
 export default () => (
   <Layout>
     <header>
-      <nav>
-        <Link to="/">Home</Link>
-      </nav>
+      <Nav />
       <h1>Software Management Interface (SMI)</h1>
     </header>
     <main>
