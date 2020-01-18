@@ -78,7 +78,7 @@ export default () => (
             link="true"
             tags="Python | Flask | MySQL | JavaScript | University of Michigan"
             description="This <em>Flask</em> application provides an interface to
-                  facilitate the U-M College of Engineering Student Computing Team's
+                  facilitate the U-M College of Engineering Student Computing Environment team's
                   process for software evaluation, licensing, and deployment, as
                   well as populating a public software listing webpage. As the lead
                   developer of this ongoing project, I collaborated with business

@@ -25,15 +25,15 @@ export default () => (
       <h2>Overview</h2>
       <p>
         This Flask application provides an interface to facilitate the U-M
-        College of Engineering Student Computing Team's process for software
-        evaluation, licensing, and deployment, as well as populating a public
-        software listing webpage. As the lead developer of this ongoing project,
-        I collaborated with business analysts, project managers, and project
-        owners to gather functional and business requirements. I continue to
-        work with project owners and a team of part-time student employees to
-        develop features in annual development cycles of about four months. As
-        the application ages, I am also focused on incrementally refactoring the
-        code to better align with modern practices.
+        College of Engineering Student Computing Environment team's process for
+        software evaluation, licensing, and deployment, as well as populating a
+        public software listing webpage. As the lead developer of this ongoing
+        project, I collaborated with business analysts, project managers, and
+        project owners to gather functional and business requirements. I
+        continue to work with project owners and a team of part-time student
+        employees to develop features in annual development cycles of about four
+        months. As the application ages, I am also focused on incrementally
+        refactoring the code to better align with modern practices.
       </p>
       <p>
         Because this application is primarily an internal tool serving
