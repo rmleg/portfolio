@@ -7,12 +7,14 @@ import "../utils/fontawesome"
 import Footer from "../components/footer"
 import Project from "../components/project"
 import MyHelment from "../components/helmet"
+import Nav from "../components/nav"
 
 export default () => (
   <div>
     <MyHelment />
     <div className="container">
       <header>
+        <Nav />
         <h1>Rachel Leggett</h1>
         <span className="social">
           <a
