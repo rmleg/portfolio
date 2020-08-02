@@ -6,6 +6,14 @@ $fawn: #dcab6b;
 $ruby: #aa4465;
 $wine: #632b30;
 
+$dusty-purple: #474973;
+$dark-purple: #161B33;
+
+$link-color: $dusty-purple;
+$header-color: $dark-purple;
+$link-hover-color: $dark-purple;
+$accent-color: #C687B1;
+
 /* Fonts */
 $serif: "PT Serif", Georgia, serif;
 $sans-serif: "Nunito", Arial, sans-serif;
@@ -43,7 +51,7 @@ header {
   grid-area: header;
   align-self: center;
   text-align: center;
-  color: $wine;
+  color: $header-color;
 
   h1 {
     margin-bottom: 0;
@@ -121,7 +129,7 @@ main {
   justify-self: center;
 
   #about-me {
-    border-left: 3px solid $fawn;
+    border-left: 3px solid $accent-color;
     font-size: 1.5rem;
     padding-left: 1rem;
     line-height: 1.5;
@@ -155,7 +163,7 @@ main {
 
   .screenshot {
     flex-basis: 33%;
-    border-top: 3px solid $fawn;
+    border-top: 3px solid $accent-color;
     margin-left: 2rem;
 
     img {
@@ -213,7 +221,7 @@ footer {
 }
 
 a {
-  color: $wine;
+  color: $link-color;
   font-weight: bold;
 
   &:hover {
@@ -235,7 +243,7 @@ span.social {
   }
 
   a:hover {
-    color: $prune;
+    color: $link-hover-color;
   }
 }
 
