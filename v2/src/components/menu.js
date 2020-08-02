@@ -33,6 +33,9 @@ class Menu extends React.Component {
             }`}
             onClick={this.onClick}
             type="button"
+            aria-label="Menu"
+            aria-controls="navigation"
+            aria-expanded={this.state.open}
           >
             <span class="hamburger-box">
               <span class="hamburger-inner"></span>
