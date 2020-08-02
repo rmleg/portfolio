@@ -13,6 +13,8 @@ export default () => (
             <LinkForList url="https://instagram.com/arbortwist" title="Knitting/Spinning/Sewing Instagram" />
             <LinkForList url="https://instagram.com/polervortex" title="Pole Dance Instagram" />
             <LinkForList url="https://instagram.com/thepastrycats" title="Cat Instagram" />
+            <LinkForList url="https://www.linkedin.com/in/rmleg/" title="LinkedIn" />
+            <LinkForList url="https://github.com/rmleg" title="GitHub" />
         </div>
     </Layout>
 )
