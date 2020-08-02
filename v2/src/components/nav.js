@@ -8,6 +8,7 @@ const Nav = () => {
       <a href="https://devyarns.com" target="_blank" rel="noopener noreferrer">
         Blog
       </a>
+      <Link to="/links">My Other Internet Places</Link>
     </nav>
   )
 }
