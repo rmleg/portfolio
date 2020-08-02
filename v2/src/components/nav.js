@@ -1,8 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
-import '../styles/nav.scss'
+import "../styles/nav.scss"
 
-const Nav = (props) => {
+const Nav = props => {
   return (
     <nav className={props.hidden} onClick={props.onclick}>
       <Link to="/">Home</Link>
