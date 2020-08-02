@@ -5,7 +5,7 @@ import "../styles/links.scss"
 
 export default () => (
   <Layout>
-    <h1>Rachel Leggett's Internet Places</h1>
+    <h1 className="links-h1">Rachel Leggett's Internet Places</h1>
     <div className="links">
       <LinkForList url="https://devyarns.com" title="Tech Blog" />
       <LinkForList url="https://arbortwist.com" title="Knitting Patterns" />
