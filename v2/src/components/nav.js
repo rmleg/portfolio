@@ -1,9 +1,9 @@
 import React from "react"
 import { Link } from "gatsby"
 
-const Nav = () => {
+const Nav = (props) => {
   return (
-    <nav>
+    <nav className={props.hidden}>
       <Link to="/">Home</Link>
       <a href="https://devyarns.com" target="_blank" rel="noopener noreferrer">
         Blog
