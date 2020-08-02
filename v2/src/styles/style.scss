@@ -7,12 +7,12 @@ $ruby: #aa4465;
 $wine: #632b30;
 
 $dusty-purple: #474973;
-$dark-purple: #161B33;
+$dark-purple: #161b33;
 
 $link-color: $dusty-purple;
 $header-color: $dark-purple;
 $link-hover-color: $dark-purple;
-$accent-color: #C687B1;
+$accent-color: #c687b1;
 
 /* Fonts */
 $serif: "PT Serif", Georgia, serif;
@@ -22,6 +22,7 @@ body {
   font-family: $sans-serif;
   color: #333;
   margin: 0;
+  padding: 0 1rem;
   background-color: #fefefe;
 }
 
