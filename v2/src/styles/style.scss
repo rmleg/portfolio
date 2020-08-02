@@ -70,6 +70,12 @@ h1 {
   text-align: left;
 }
 
+#profile-picture {
+  img {
+    max-width: 100%;
+  }
+}
+
 .casestudy {
   main {
     max-width: 800px;
@@ -118,6 +124,7 @@ main {
   justify-self: center;
 
   #about-me {
+    margin-top: 3rem;
     display: flex;
     flex-flow: row-wrap;
     justify-content: space-between;
@@ -180,25 +187,26 @@ main {
 }
 
 @media screen and (max-width: 950px) {
-  .project {
-    .description {
-      flex-basis: 45%;
-    }
-    .screenshot {
-      flex-basis: 50%;
-    }
+  .project .description,
+  #about-me #profile-picture {
+    flex-basis: 45%;
+  }
+
+  .project .screenshot,
+  #about-me #about-text {
+    flex-basis: 50%;
   }
 }
 
 @media screen and (max-width: 670px) {
-  .project {
-    .description,
-    .screenshot {
-      flex-basis: 100%;
-    }
-    .screenshot {
-      margin-left: 0;
-    }
+  .project .description,
+  .project .screenshot,
+  #about-me #profile-picture,
+  #about-me #about-text {
+    flex-basis: 100%;
+  }
+  .project .screenshot {
+    margin-left: 0;
   }
 }
 

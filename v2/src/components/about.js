@@ -1,11 +1,17 @@
 import React from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import "../utils/fontawesome"
+import ProfilePic from "../images/RachelLeggettProfilePhoto.png"
 
 const About = () => {
   return (
     <div id="about-me">
-      <div id="profile-picture">image will go here</div>
+      <div id="profile-picture">
+        <img
+          src={ProfilePic}
+          alt="Photo of Rachel sitting on a boulder in front of Lake Erie, wearing a sweater and jeans."
+        />
+      </div>
       <div id="about-text">
         <h1>Rachel Leggett</h1>
         <span className="social">
