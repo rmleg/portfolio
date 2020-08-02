@@ -2,8 +2,6 @@ import React from "react"
 import knittingrecipesimg from "../images/knittingrecipeshomepage.png"
 import smiimg from "../images/smihomepage.png"
 import eerimg from "../images/eerhomepage.png"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import "../utils/fontawesome"
 import Footer from "../components/footer"
 import Project from "../components/project"
 import MyHelment from "../components/helmet"
@@ -16,33 +14,6 @@ export default () => (
     <div className="container">
       <header>
         <Menu />
-        <h1>Rachel Leggett</h1>
-        <span className="social">
-          <a
-            href="https://www.linkedin.com/in/rmleg/"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Visit my LinkedIn profile."
-          >
-            <FontAwesomeIcon icon={["fab", "linkedin-in"]} className="grow" />
-          </a>
-          <a
-            href="https://github.com/rmleg"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Visit my Github profile."
-          >
-            <FontAwesomeIcon icon={["fab", "github"]} className="grow" />
-          </a>
-          <a
-            href="https://twitter.com/rleggos"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Visit my Twitter profile."
-          >
-            <FontAwesomeIcon icon={["fab", "twitter"]} className="grow" />
-          </a>
-        </span>
       </header>
       <main>
         <About />

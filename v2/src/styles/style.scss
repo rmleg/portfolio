@@ -7,12 +7,12 @@ $ruby: #aa4465;
 $wine: #632b30;
 
 $dusty-purple: #474973;
-$dark-purple: #161B33;
+$dark-purple: #161b33;
 
 $link-color: $dusty-purple;
 $header-color: $dark-purple;
 $link-hover-color: $dark-purple;
-$accent-color: #C687B1;
+$accent-color: #c687b1;
 
 /* Fonts */
 $serif: "PT Serif", Georgia, serif;
@@ -23,6 +23,7 @@ body {
   color: #333;
   margin: 0;
   background-color: #fefefe;
+  font-size: 1.1rem;
 }
 
 input {
@@ -66,6 +67,7 @@ h3 {
 h1 {
   font-size: 4.5rem;
   letter-spacing: 1px;
+  text-align: left;
 }
 
 .casestudy {
@@ -116,10 +118,18 @@ main {
   justify-self: center;
 
   #about-me {
-    border-left: 3px solid $accent-color;
-    font-size: 1.5rem;
-    padding-left: 1rem;
-    line-height: 1.5;
+    display: flex;
+    flex-flow: row-wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #profile-picture {
+    flex-basis: 33%;
+  }
+
+  #about-text {
+    flex-basis: 60%;
   }
 }
 
