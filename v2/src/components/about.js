@@ -45,7 +45,7 @@ const About = () => {
           Vampire Slayer.
         </p>
         <p>
-          You can find me online at <Link to="/links">these other places.</Link>{" "}
+          You can find me online at <Link to="/links">these other places</Link>.{" "}
           ↗️
         </p>
         {/* <span className="social">
