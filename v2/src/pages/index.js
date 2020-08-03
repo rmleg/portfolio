@@ -47,7 +47,8 @@ export default props => {
                   well as populating a public software listing webpage. As the lead
                   developer of this ongoing project, I collaborated with business
                   analysts, project managers, and project owners to gather
-                  functional and business requirements. In 2020, I tripled the 
+                  functional and business requirements.<br /><br />
+                  In 2020, I tripled the 
                   Lighthouse performance score for this 
                   application through a combination of refactoring the backend 
                   and optimizing the frontend.`}
