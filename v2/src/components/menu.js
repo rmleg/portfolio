@@ -37,8 +37,8 @@ class Menu extends React.Component {
             aria-controls="navigation"
             aria-expanded={this.state.open}
           >
-            <span class="hamburger-box">
-              <span class="hamburger-inner"></span>
+            <span className="hamburger-box">
+              <span className="hamburger-inner"></span>
             </span>
           </button>
         </div>
