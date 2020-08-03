@@ -1,0 +1,28 @@
+@import "variables";
+
+#fun-projects-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.vertical-card {
+  flex-basis: 27%;
+
+  img {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .vertical-card {
+    flex-basis: 45%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .vertical-card {
+    flex-basis: 100%;
+  }
+}
