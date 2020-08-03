@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import Img from "gatsby-image"
 
 const Project = props => {
   let title = <h3>{props.title}</h3>
@@ -25,7 +26,7 @@ const Project = props => {
         <p dangerouslySetInnerHTML={{ __html: props.description }} />
       </div>
       <div className="screenshot">
-        <img src={props.img} alt={props.altText} />
+        <Img alt={props.altText} fluid={props.img} />
       </div>
     </div>
   )

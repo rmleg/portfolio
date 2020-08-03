@@ -1,14 +1,14 @@
 import React from "react"
-import ProfilePic from "../images/RachelLeggettProfilePhoto.png"
+import Img from "gatsby-image"
 import { Link } from "gatsby"
 
-const About = () => {
+const About = props => {
   return (
     <div id="about-me">
       <div id="profile-picture">
-        <img
-          src={ProfilePic}
-          alt="Photo of Rachel sitting on a boulder in front of Lake Erie, wearing a sweater and jeans."
+        <Img
+          fluid={props.img}
+          alt="Rachel sitting on a boulder in front of Lake Erie, wearing a sweater and jeans."
         />
       </div>
       <div id="about-text">
