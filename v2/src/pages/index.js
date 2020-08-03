@@ -47,10 +47,7 @@ export default props => {
                   well as populating a public software listing webpage. As the lead
                   developer of this ongoing project, I collaborated with business
                   analysts, project managers, and project owners to gather
-                  functional and business requirements. I continue to work with
-                  project owners and a team of part-time student employees to
-                  develop features in annual development cycles of about four
-                  months.</p><p>In 2020, I tripled the Lighthouse performance score for this 
+                  functional and business requirements. In 2020, I tripled the Lighthouse performance score for this 
                   application through a combination of refactoring the backend
                    and optimizing the frontend.</p>`}
               img={props.data.smi.childImageSharp.fluid}
