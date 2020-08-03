@@ -5,7 +5,7 @@ import MyHelment from "../components/helmet"
 import Menu from "../components/menu"
 import About from "../components/about"
 import Speaking from "../components/speaking"
-import FunProjects from "../components/funProjects"
+// import FunProjects from "../components/funProjects"
 import { graphql } from "gatsby"
 
 export default props => {
