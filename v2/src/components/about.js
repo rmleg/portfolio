@@ -1,6 +1,4 @@
 import React from "react"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import "../utils/fontawesome"
 import ProfilePic from "../images/RachelLeggettProfilePhoto.png"
 import { Link } from "gatsby"
 
@@ -48,32 +46,6 @@ const About = () => {
           You can find me online at <Link to="/links">these other places</Link>.{" "}
           ↗️
         </p>
-        {/* <span className="social">
-          <a
-            href="https://www.linkedin.com/in/rmleg/"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Visit my LinkedIn profile."
-          >
-            <FontAwesomeIcon icon={["fab", "linkedin-in"]} className="grow" />
-          </a>
-          <a
-            href="https://github.com/rmleg"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Visit my Github profile."
-          >
-            <FontAwesomeIcon icon={["fab", "github"]} className="grow" />
-          </a>
-          <a
-            href="https://twitter.com/rleggos"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Visit my Twitter profile."
-          >
-            <FontAwesomeIcon icon={["fab", "twitter"]} className="grow" />
-          </a>
-        </span> */}
       </div>
     </div>
   )
