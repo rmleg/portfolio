@@ -11,10 +11,7 @@ function MyHelmet() {
       <meta charset="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta name="theme-color" content="#000000" />
-      <meta
-        name="description"
-        content="Web development portfolio for Rachel Leggett."
-      />
+      <meta name="description" content="Personal website of Rachel Leggett." />
       <link rel="apple-touch-icon" sizes="180x180" href={appleTouchIcon} />
       <link rel="icon" type="image/png" sizes="32x32" href={favicon32x32} />
       <link rel="icon" type="image/png" sizes="16x16" href={favicon16x16} />
