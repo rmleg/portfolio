@@ -143,7 +143,7 @@ main {
   /* grid-area: main;
   justify-self: center; */
 
-  #about-me {
+  #about {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -210,12 +210,12 @@ main {
 
 @media screen and (max-width: 950px) {
   .project .description,
-  #about-me #profile-picture {
+  #about #profile-picture {
     flex-basis: 45%;
   }
 
   .project .screenshot,
-  #about-me #about-text {
+  #about #about-text {
     flex-basis: 50%;
   }
 }
@@ -223,11 +223,11 @@ main {
 @media screen and (max-width: 670px) {
   .project .description,
   .project .screenshot,
-  #about-me #profile-picture,
-  #about-me #about-text {
+  #about #profile-picture,
+  #about #about-text {
     flex-basis: 100%;
   }
-  #about-me #profile-picture {
+  #about #profile-picture {
     order: 2;
   }
   .project .screenshot {

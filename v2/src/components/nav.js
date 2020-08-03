@@ -9,9 +9,9 @@ const Nav = props => {
       onClick={props.onclick}
       onKeyUp={e => props.onkey(e)}
     >
-      <a href="#about-me">About</a>
+      <a href="#about">About</a>
       <a href="#speaking">Speaking</a>
-      <a href="#blogs">Writing</a>
+      <a href="#writing">Writing</a>
       <a href="#projects">Projects</a>
       <a href="https://devyarns.com" target="_blank" rel="noopener noreferrer">
         Blog

@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 
 const About = props => {
   return (
-    <div id="about-me">
+    <div id="about">
       <div id="profile-picture">
         <Img
           fluid={props.img}

@@ -4,7 +4,7 @@ import "../styles/verticalcards.scss"
 
 const Blogs = props => {
   return (
-    <div id="blogs" className="white-section">
+    <div id="writing" className="white-section">
       <div className="content">
         <h2>Writing</h2>
         <p>
