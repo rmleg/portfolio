@@ -17,6 +17,14 @@ class Menu extends React.Component {
     }))
   }
 
+  onKeyUp = e => {
+    if (e.key === "Escape" || e.key === "Enter") {
+      this.setState(prevState => ({
+        open: !prevState.open,
+      }))
+    }
+  }
+
   onClickNav = () => {
     this.setState({
       open: false,
@@ -37,14 +45,15 @@ class Menu extends React.Component {
             aria-controls="navigation"
             aria-expanded={this.state.open}
           >
-            <span class="hamburger-box">
-              <span class="hamburger-inner"></span>
+            <span className="hamburger-box">
+              <span className="hamburger-inner"></span>
             </span>
           </button>
         </div>
         <Nav
           hidden={this.state.open ? "open" : "closed"}
           onclick={this.onClickNav}
+          onkey={this.onKeyUp}
         />
       </>
     )

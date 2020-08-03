@@ -7,6 +7,7 @@ import Project from "../components/project"
 import MyHelment from "../components/helmet"
 import Menu from "../components/menu"
 import About from "../components/about"
+import Speaking from "../components/speaking"
 import FunProjects from "../components/funProjects"
 
 export default () => (
@@ -18,8 +19,9 @@ export default () => (
       </header>
       <main>
         <About />
-        <FunProjects />
-        <div id="projects">
+        <Speaking />
+        {/* <FunProjects /> */}
+        <div id="projects" className="content">
           <h2>Selected Projects</h2>
           <Project
             title="Knitting Recipes"
