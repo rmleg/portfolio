@@ -1,6 +1,6 @@
 @import "variables";
 
-#fun-projects-container {
+.vertical-card-container {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
@@ -9,9 +9,16 @@
 
 .vertical-card {
   flex-basis: 27%;
+  padding-top: 1.5rem;
 
   img {
     max-width: 100%;
+    border-top: 3px solid $accent-color;
+  }
+
+  h3 a {
+    text-decoration: none;
+    color: #333;
   }
 }
 

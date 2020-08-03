@@ -11,11 +11,12 @@ const Nav = props => {
     >
       <a href="#about-me">About</a>
       <a href="#speaking">Speaking</a>
+      <a href="#blogs">Writing</a>
       <a href="#projects">Projects</a>
       <a href="https://devyarns.com" target="_blank" rel="noopener noreferrer">
         Blog
       </a>
-      <Link to="/links">Links</Link>
+      <Link to="/links">External Links</Link>
     </nav>
   )
 }
