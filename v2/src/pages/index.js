@@ -38,8 +38,8 @@ export default props => {
 
             <Project
               title="Software Management Interface"
-              url="smi"
-              link="true"
+              /* url="smi"
+              link="true" */
               tags="Python | Flask | MySQL | JavaScript | University of Michigan"
               description="<p>This <em>Flask</em> application provides an interface to
                   facilitate the U-M College of Engineering Student Computing Environment team's
