@@ -14,7 +14,11 @@ const About = props => {
       <div id="about-text">
         <h1>Rachel Leggett</h1>
         <p>
-          Hi, I'm Rachel! 👋 I work at{" "}
+          Hi, I'm Rachel!{" "}
+          <span role="img" aria-label="hand waving">
+            👋
+          </span>{" "}
+          I work at{" "}
           <a
             href="https://engin.umich.edu"
             target="_blank"
@@ -44,7 +48,9 @@ const About = props => {
         </p>
         <p>
           You can find me online at <Link to="/links">these other places</Link>.{" "}
-          ↗️
+          <span role="img" aria-label="northeast arrow">
+            ↗️
+          </span>
         </p>
       </div>
     </div>
