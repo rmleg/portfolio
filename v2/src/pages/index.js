@@ -41,16 +41,17 @@ export default props => {
               /* url="smi"
               link="true" */
               tags="Python | Flask | MySQL | JavaScript | University of Michigan"
-              description="<p>This <em>Flask</em> application provides an interface to
+              description={`This <em>Flask</em> application provides an interface to
                   facilitate the U-M College of Engineering Student Computing Environment team's
                   process for software evaluation, licensing, and deployment, as
                   well as populating a public software listing webpage. As the lead
                   developer of this ongoing project, I collaborated with business
                   analysts, project managers, and project owners to gather
-                  functional and business requirements. I continue to work with
-                  project owners and a team of part-time student employees to
-                  develop features in annual development cycles of about four
-                        months.<br /><br />In 2020, I tripled the Lighthouse performance score for this application through a combination of refactoring the backend and optimizing the frontend.</p>"
+                  functional and business requirements.<br /><br />
+                  In 2020, I tripled the 
+                  Lighthouse performance score for this 
+                  application through a combination of refactoring the backend 
+                  and optimizing the frontend.`}
               img={props.data.smi.childImageSharp.fluid}
               altText="Screenshot of software listing homepage."
             />
