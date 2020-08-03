@@ -7,6 +7,8 @@ import Project from "../components/project"
 import MyHelment from "../components/helmet"
 import Menu from "../components/menu"
 import About from "../components/about"
+import Speaking from "../components/speaking"
+import FunProjects from "../components/funProjects"
 
 export default () => (
   <div>
@@ -17,7 +19,9 @@ export default () => (
       </header>
       <main>
         <About />
-        <div id="projects">
+        <Speaking />
+        {/* <FunProjects /> */}
+        <div id="projects" className="content">
           <h2>Selected Projects</h2>
           <Project
             title="Knitting Recipes"
@@ -38,7 +42,7 @@ export default () => (
             url="smi"
             link="true"
             tags="Python | Flask | MySQL | JavaScript | University of Michigan"
-            description="This <em>Flask</em> application provides an interface to
+            description="<p>This <em>Flask</em> application provides an interface to
                   facilitate the U-M College of Engineering Student Computing Environment team's
                   process for software evaluation, licensing, and deployment, as
                   well as populating a public software listing webpage. As the lead
@@ -47,7 +51,8 @@ export default () => (
                   functional and business requirements. I continue to work with
                   project owners and a team of part-time student employees to
                   develop features in annual development cycles of about four
-                        months."
+                        months.</p>
+                  <p>In 2020, I tripled the Lighthouse performance score for this application through a combination of refactoring the backend and optimizing the frontend.</p>"
             img={smiimg}
             altText="Screenshot of software listing homepage."
           />
