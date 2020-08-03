@@ -8,11 +8,15 @@ $wine: #632b30;
 
 $dusty-purple: #474973;
 $dark-purple: #161b33;
+$dark-pink: #87406f;
 
 $link-color: $dusty-purple;
+$link-color-pink: $dark-pink;
 $header-color: $dark-purple;
 $link-hover-color: $dark-purple;
 $accent-color: #c687b1;
+
+$blue-bg: #eef7fc;
 
 /* Fonts */
 $serif: "PT Serif", Georgia, serif;
@@ -22,7 +26,7 @@ body {
   font-family: $sans-serif;
   color: #333;
   margin: 0;
-  padding: 0 1rem;
+  padding: 0;
   background-color: #fefefe;
   font-size: 1.1rem;
 }
@@ -31,24 +35,31 @@ input {
   font-family: "Nunito", Arial, sans-serif;
 }
 
+.blue-section {
+  background: $blue-bg;
+}
+
+.content {
+  padding: 2rem 1rem 3rem 1rem;
+  width: 1000px;
+  max-width: calc(100% - 2rem);
+  margin: 3rem auto 0 auto;
+}
+
 .container {
-  display: grid;
+  /* display: grid;
   grid-template-columns: 1fr minmax(min-content, 1200px) 1fr;
   grid-template-rows: auto auto auto;
   grid-template-areas:
     "header header header"
     ". main ."
     "footer footer footer";
-  /* grid: 
-        [head-start] "head" auto [head-end]
-        [content-start] "content" auto [content-end]
-        [footer-start] "footer" auto [footer-end]
-        / 100%; */
   justify-content: center;
-  justify-items: stretch;
+  justify-items: stretch; */
+  width: 100%;
 }
 
-header {
+/* header {
   grid-area: header;
   align-self: center;
   text-align: center;
@@ -57,7 +68,7 @@ header {
   h1 {
     margin-bottom: 0;
   }
-}
+} */
 
 h1,
 h2,
@@ -75,6 +86,10 @@ h1 {
   img {
     max-width: 100%;
   }
+}
+
+ul {
+  line-height: 2em;
 }
 
 .casestudy {
@@ -121,15 +136,19 @@ em {
 }
 
 main {
-  grid-area: main;
-  justify-self: center;
+  /* grid-area: main;
+  justify-self: center; */
 
   #about-me {
-    margin-top: 3rem;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
+    width: 1200px;
+    max-width: calc(100% - 2rem);
+    margin: 3rem auto 0 auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   #profile-picture {
@@ -218,7 +237,11 @@ footer {
   grid-area: footer;
   display: flex;
   justify-content: space-around;
-  padding: 3rem 0;
+  padding: 3rem 1rem;
+  background: $blue-bg;
+  /* margin-left: -1rem;
+  margin-right: -1rem;
+  background: $blue-bg; */
 }
 
 .grow {

@@ -17,6 +17,14 @@ class Menu extends React.Component {
     }))
   }
 
+  onKeyUp = e => {
+    if (e.key === "Escape" || e.key === "Enter") {
+      this.setState(prevState => ({
+        open: !prevState.open,
+      }))
+    }
+  }
+
   onClickNav = () => {
     this.setState({
       open: false,
@@ -45,6 +53,7 @@ class Menu extends React.Component {
         <Nav
           hidden={this.state.open ? "open" : "closed"}
           onclick={this.onClickNav}
+          onkey={this.onKeyUp}
         />
       </>
     )
