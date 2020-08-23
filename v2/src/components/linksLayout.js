@@ -3,13 +3,11 @@ import MyHelmet from "./helmet"
 import Footer from "./footer"
 
 const Layout = ({ children }) => (
-    <div>
-        <MyHelmet />
-        <div>
-            {children}
-        </div>
-        <Footer />
-    </div>
+  <div style={{ padding: "0 1rem" }}>
+    <MyHelmet />
+    <div>{children}</div>
+    <Footer />
+  </div>
 )
 
 export default Layout

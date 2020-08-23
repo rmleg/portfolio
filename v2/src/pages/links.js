@@ -7,6 +7,7 @@ export default () => (
   <Layout>
     <h1 className="links-h1">Rachel Leggett's Internet Places</h1>
     <div className="links">
+      <LinkForList url="https://rachelleggett.com" title="Personal Website" />
       <LinkForList url="https://devyarns.com" title="Tech Blog" />
       <LinkForList url="https://arbortwist.com" title="Knitting Patterns" />
       <LinkForList
