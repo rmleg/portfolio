@@ -18,20 +18,25 @@ const About = props => {
           <span role="img" aria-label="hand waving">
             👋
           </span>{" "}
-          I work at{" "}
+          I'm a web developer in beautiful Ann Arbor, MI, specializing in
+          accessibility.
+        </p>
+        <p>
+          Currently, I contract with{" "}
           <a
-            href="https://engin.umich.edu"
+            href="https://dominos.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Michigan Engineering
+            Domino's
           </a>{" "}
-          as a Senior Full-Stack Web Developer in beautiful Ann Arbor, Michigan.
-          I work with Python, Flask, PHP, Phalcon, JavaScript, React, Vue, and
-          MySQL, specializing in a11y.
+          as a Front End Web Developer, working with JavaScript and React.
         </p>
         <p>
-          I also own a knitting pattern design business called{" "}
+          I have also worked with Python, Flask, PHP, Phalcon, Vue, and MySQL.
+        </p>
+        <p>
+          I own a knitting pattern design business called{" "}
           <a
             href="https://arbortwist.com"
             target="_blank"
@@ -43,8 +48,8 @@ const About = props => {
           store. I build online tools for knitters.
         </p>
         <p>
-          I pole dance, I have four cats, and my favorite TV show is Buffy the
-          Vampire Slayer.
+          I pole dance, I have four cats, and my favorite TV show is{" "}
+          <cite>Buffy the Vampire Slayer</cite>.
         </p>
         <p>
           You can find me online at <Link to="/links">these other places</Link>.{" "}
