@@ -5,9 +5,10 @@ import "../styles/nav.scss"
 const Nav = props => {
   return (
     <nav
-      className={props.hidden}
+      className={props.hidden + " menu-links"}
       onClick={props.onclick}
       onKeyUp={e => props.onkey(e)}
+      aria-hidden={props.hidden === "closed" ? true : false}
     >
       <a href="#about">About</a>
       <a href="#speaking">Speaking</a>
