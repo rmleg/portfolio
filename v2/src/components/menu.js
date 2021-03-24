@@ -4,10 +4,18 @@ import "../styles/menu.scss"
 import "../styles/hamburger.css"
 
 class Menu extends React.Component {
-  constructor(props) {
+  constructor (props) {
     super(props)
     this.state = {
       open: false,
+    }
+  }
+
+  componentDidUpdate () {
+    if (this.state.open === true) {
+      document.addEventListener("keydown", e => this.keepModalActive(e))
+    } else {
+      document.removeEventListener("keydown", this.keepModalActive, true)
     }
   }
 
@@ -15,6 +23,31 @@ class Menu extends React.Component {
     this.setState(prevState => ({
       open: !prevState.open,
     }))
+  }
+
+  keepModalActive (e) {
+    var lastFocusableElement = document.querySelector(".menu-links")
+      .lastElementChild
+    var firstFocusableElement = document.querySelector(".menu-button")
+    let isTabPressed = e.key === "Tab" || e.keyCode === 9
+    if (!isTabPressed) {
+      return
+    }
+
+    if (e.shiftKey) {
+      // if shift key pressed for shift + tab combination
+      if (document.activeElement === firstFocusableElement) {
+        lastFocusableElement.focus() // add focus for the last focusable element
+        e.preventDefault()
+      }
+    } else {
+      // if tab key is pressed
+      if (document.activeElement === lastFocusableElement) {
+        // if focused has reached to last focusable element then focus first focusable element after pressing tab
+        firstFocusableElement.focus() // add focus for the first focusable element
+        e.preventDefault()
+      }
+    }
   }
 
   onKeyUp = e => {
@@ -31,22 +64,22 @@ class Menu extends React.Component {
     })
   }
 
-  render() {
+  render () {
     return (
       <>
-        <div className="menu-container">
+        <div className='menu-container'>
           <button
             className={`hamburger hamburger--slider menu-button ${
               this.state.open ? "is-active" : ""
             }`}
             onClick={this.onClick}
-            type="button"
-            aria-label="Menu"
-            aria-controls="navigation"
+            type='button'
+            aria-label='Menu'
+            aria-controls='navigation'
             aria-expanded={this.state.open}
           >
-            <span className="hamburger-box">
-              <span className="hamburger-inner"></span>
+            <span className='hamburger-box'>
+              <span className='hamburger-inner'></span>
             </span>
           </button>
         </div>
