@@ -14,7 +14,8 @@ a.linkForList {
   transition: all 0.3s ease;
 }
 
-a.linkForList:hover {
+a.linkForList:hover,
+a.linkForList:focus {
   color: $background-color;
   background-color: $font-color;
 }

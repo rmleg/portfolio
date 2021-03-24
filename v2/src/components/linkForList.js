@@ -3,9 +3,11 @@ import "../styles/linkForList.scss"
 
 const LinkForList = props => {
   return (
-    <a className="linkForList" href={props.url}>
-      {props.title}
-    </a>
+    <li>
+      <a className="linkForList" href={props.url}>
+        {props.title}
+      </a>
+    </li>
   )
 }
 
