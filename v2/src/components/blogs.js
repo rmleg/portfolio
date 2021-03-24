@@ -21,10 +21,10 @@ const Blogs = props => {
           />
           <VerticalCard
             title="Arbor Twist Blog"
-            url="https://arbortwist.com/blog"
+            url="https://arbortwist.com"
             description="Knitting and knitting pattern design blog."
             img={props.images.arborTwistBlog}
-            altText="Screenshot of the Arbor Twist Blog homepage."
+            altText="Screenshot of the Arbor Twist homepage."
           />
         </div>
       </div>
