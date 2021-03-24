@@ -4,31 +4,36 @@ import "../styles/menu.scss"
 import "../styles/hamburger.css"
 
 class Menu extends React.Component {
-  constructor (props) {
+  constructor(props) {
     super(props)
     this.state = {
       open: false,
     }
   }
 
-  componentDidUpdate () {
+  componentDidUpdate = () => {
     if (this.state.open === true) {
-      document.addEventListener("keydown", e => this.keepModalActive(e))
+      document.addEventListener("keydown", this.keepModalActive)
     } else {
       document.removeEventListener("keydown", this.keepModalActive, true)
     }
+  }
+
+  componentWillUnmount = () => {
+    document.removeEventListener("keydown", this.keepModalActive, true)
   }
 
   onClick = () => {
     this.setState(prevState => ({
       open: !prevState.open,
     }))
+    this.toggleNonModalElementAria()
   }
 
-  keepModalActive (e) {
-    var lastFocusableElement = document.querySelector(".menu-links")
-      .lastElementChild
-    var firstFocusableElement = document.querySelector(".menu-button")
+  keepModalActive = e => {
+    const lastFocusableElement = document.querySelector(".menu-links")
+      ?.lastElementChild
+    const firstFocusableElement = document.querySelector(".menu-button")
     let isTabPressed = e.key === "Tab" || e.keyCode === 9
     if (!isTabPressed) {
       return
@@ -58,32 +63,47 @@ class Menu extends React.Component {
     }
   }
 
+  toggleNonModalElementAria = () => {
+    // Get all elements outside the modal and open/close button
+    const elementsToToggleAria = document.querySelectorAll(
+      ".container > *:not(header)"
+    )
+    elementsToToggleAria.forEach(element => {
+      if (element.hasAttribute("aria-hidden")) {
+        element.removeAttribute("aria-hidden")
+      } else {
+        element.setAttribute("aria-hidden", "true")
+      }
+    })
+  }
+
   onClickNav = () => {
     this.setState({
       open: false,
     })
   }
 
-  render () {
+  render = () => {
     return (
       <>
-        <div className='menu-container'>
+        <div className="menu-container">
           <button
             className={`hamburger hamburger--slider menu-button ${
               this.state.open ? "is-active" : ""
             }`}
             onClick={this.onClick}
-            type='button'
-            aria-label='Menu'
-            aria-controls='navigation'
+            type="button"
+            aria-label={this.state.open ? "Close menu" : "Open menu"}
+            aria-controls="navigation"
             aria-expanded={this.state.open}
           >
-            <span className='hamburger-box'>
-              <span className='hamburger-inner'></span>
+            <span className="hamburger-box">
+              <span className="hamburger-inner"></span>
             </span>
           </button>
         </div>
         <Nav
+          id="navigation"
           hidden={this.state.open ? "open" : "closed"}
           onclick={this.onClickNav}
           onkey={this.onKeyUp}
