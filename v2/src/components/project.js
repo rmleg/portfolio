@@ -23,7 +23,7 @@ const Project = props => {
       <div className="description">
         {title}
         <p className="project-tags">{props.tags}</p>
-        <p dangerouslySetInnerHTML={{ __html: props.description }} />
+        <div dangerouslySetInnerHTML={{ __html: props.description }} />
       </div>
       <div className="screenshot">
         <Img alt={props.altText} fluid={props.img} />

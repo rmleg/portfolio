@@ -51,17 +51,17 @@ export default props => {
               <Project
                 title="Software Management Interface"
                 tags="Python | Flask | MySQL | JavaScript | University of Michigan"
-                description={`This <em>Flask</em> application provides an interface to
+                description={`<p>This <em>Flask</em> application provides an interface to
                   facilitate the U-M College of Engineering Student Computing Environment team's
                   process for software evaluation, licensing, and deployment, as
                   well as populating a public software listing webpage. As the lead
                   developer of this ongoing project, I collaborated with business
                   analysts, project managers, and project owners to gather
-                  functional and business requirements.<br /><br />
-                  In 2020, I tripled the 
+                  functional and business requirements.</p>
+                  <p>In 2020, I tripled the 
                   Lighthouse performance score for this 
                   application through a combination of refactoring the backend 
-                  and optimizing the frontend.`}
+                  and optimizing the frontend.</p>`}
                 img={props.data.smi.childImageSharp.fluid}
                 altText="Screenshot of software listing homepage."
               />
