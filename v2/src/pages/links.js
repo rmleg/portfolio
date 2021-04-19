@@ -8,6 +8,7 @@ export default () => (
     <h1 className="links-h1">Rachel Leggett's Internet Places</h1>
     <ul className="links">
       <LinkForList url="https://rachelleggett.com" title="Personal Website" />
+      <LinkForList url="https://twitter.com/rleggos" title="Twitter" />
       <LinkForList url="https://github.com/rmleg" title="GitHub" />
       <LinkForList url="https://www.linkedin.com/in/rmleg/" title="LinkedIn" />
       <LinkForList url="https://devyarns.com" title="Tech Blog" />
@@ -24,11 +25,6 @@ export default () => (
         url="https://instagram.com/thepastrycats"
         title="Cat Instagram"
       />
-      <LinkForList
-        url="https://instagram.com/polervortex"
-        title="Pole Dance Instagram"
-      />
-      <LinkForList url="https://twitter.com/rleggos" title="Twitter" />
     </ul>
   </Layout>
 )
