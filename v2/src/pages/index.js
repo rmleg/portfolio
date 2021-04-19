@@ -30,25 +30,26 @@ export default props => {
           <div id="projects" className="blue-section">
             <div className="content">
               <h2>Selected Projects</h2>
-              <p>Here are a few projects I am proud of.</p>
+              <p>Here are a couple projects I am proud of.</p>
               <Project
                 title="Knitting Recipes"
                 url="https://knittingrecipes.com"
                 link="false"
                 tags="React | Sass | Bootstrap | Netlify | Personal Project"
-                description='This <em>React</em> application allows knitters to generate hat
+                description='<p>This <em>React</em> application allows knitters to generate hat
                   and sock knitting patterns based on their own custom measurements
                   and stitch size (called "gauge"). In addition to using the sock
                   pattern generator in the Classic Cuff Down Socks class I teach 2-3
-                        times a year, upwards of 50 users per week use this application.'
+                        times a year, upwards of 50 users per week use this application.</p>
+                        <p>I recently started <a href="https://www.youtube.com/channel/UCXLBncunjUQMO6HlxSRxewA">a YouTube channel</a>
+                         where I am documenting the
+                         process of auditing Knitting Recipes for accessibility and fixing the bugs I find.</p>'
                 img={props.data.knittingRecipes.childImageSharp.fluid}
                 altText="Screenshot of Knitting Recipes homepage."
               />
 
               <Project
                 title="Software Management Interface"
-                /* url="smi"
-              link="true" */
                 tags="Python | Flask | MySQL | JavaScript | University of Michigan"
                 description={`This <em>Flask</em> application provides an interface to
                   facilitate the U-M College of Engineering Student Computing Environment team's
@@ -63,19 +64,6 @@ export default props => {
                   and optimizing the frontend.`}
                 img={props.data.smi.childImageSharp.fluid}
                 altText="Screenshot of software listing homepage."
-              />
-
-              <Project
-                title="Web Publishing WordPress Theme"
-                tags="WordPress | PHP | Sass | Bootstrap | University of Michigan"
-                description="As manager of the U-M College of Engineering IT department's Web
-                  Publishing service, I lead development on themes and plugins
-                  offered to the service's 300+ faculty, lab, center, and academic
-                  department users. In 2019, I collaborated with a UX designer in
-                  Engineering's Communications and Marketing department to develop a
-                  new theme based on the designer's mockups."
-                img={props.data.eerHomepage.childImageSharp.fluid}
-                altText="Screenshot of a WordPress theme."
               />
             </div>
           </div>
