@@ -17,14 +17,6 @@ export default () => (
         title="Accessibility Videos"
       />
       <LinkForList url="https://arbortwist.com" title="Knitting Patterns" />
-      <LinkForList
-        url="https://instagram.com/arbortwist"
-        title="Knitting/Spinning/Sewing Instagram"
-      />
-      <LinkForList
-        url="https://instagram.com/thepastrycats"
-        title="Cat Instagram"
-      />
     </ul>
   </Layout>
 )
