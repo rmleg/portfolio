@@ -18,22 +18,22 @@ const About = props => {
           <span role="img" aria-label="hand waving">
             👋
           </span>{" "}
-          I'm a web developer in beautiful Ann Arbor, MI, specializing in
-          accessibility.
+          I'm a web developer in beautiful Ann Arbor, MI.
         </p>
         <p>
-          Currently, I contract with{" "}
+          I work on the core engineering team at{" "}
           <a
-            href="https://dominos.com"
+            href="https://shopify.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Domino's
-          </a>{" "}
-          as a Front End Web Developer, working with JavaScript and React.
+            Shopify
+          </a>
+          , using Rails, GraphQL, and React.
         </p>
         <p>
-          I have also worked with Python, Flask, PHP, Phalcon, Vue, and MySQL.
+          Previously, I've worked on accessibility at Domino's and on internal
+          tools for faculty and staff at the University of Michigan.
         </p>
         <p>
           I own a knitting pattern design business called{" "}
